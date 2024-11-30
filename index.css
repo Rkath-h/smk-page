@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(WhatsApp\ Image\ 2024-11-23\ at\ 11.25.56_84593e1d.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    background-color: #558bff9a;
+    justify-content: start;
+    color: white;
+    z-index: 9999;
+}
+
+.menu {
+    color: white;
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: all .5s ease;
+    bottom: 0;
+    left: 0;
+}
+
+.menu:hover::before {
+    transform: scaleX(1);
+    
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    padding: 5px 5px;
+    gap: 5px;
+    left: 1250px;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    padding: 70px 1px;
+    gap: 80px;
+    color: white;
+    position: relative;
+    top: 200px;
+}
+
+.left{
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    font-size: 30px;
+}
+
+.left a{
+    text-decoration: none;
+    position: relative;
+    left: 330px;
+    top: 50px;
+    color: white;
+    transition: color 1s;
+}
+
+.left a:hover{
+    color: #20e5ff;
+}
+
+hr{
+    height: 500px;
+    opacity: 0;
+}
+
+.prok{
+    font-size: 35px;
+    position: relative;
+    padding: 300px 50px;
+    background-color: rgb(195, 214, 226);
+    padding-bottom: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: rgb(40, 169, 255);
+}
+
+.text{
+    position: relative;
+    top: -100px;
+    color: #1295e0;
+}
+
+.text p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.akl{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: padding 1s , color 1s;
+}
+
+.akl ul li{
+    list-style: none;
+}
+
+.akl:hover{
+    color: #1295e0;
+    padding: 20px 20px;
+}
+
+.pm{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: padding 1s , color 1s;
+}
+
+.pm ul li{
+    list-style: none;
+}
+
+.pm:hover{
+    color: #1295e0;
+    padding: 20px 20px;
+}
+
+.mplb{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: padding 1s , color 1s;
+}
+
+.mplb ul li{
+    list-style: none;
+}
+
+.mplb:hover{
+    color: #1295e0;
+    padding: 20px 20px;
+}
+
+.pplg{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: padding 1s , color 1s;
+}
+
+.pplg ul li{
+    list-style: none;
+}
+
+.pplg:hover{
+    color: #1295e0;
+    padding: 20px 20px;
+}
+
+.dkv{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    transition: padding 1s , color 1s;
+}
+
+.dkv ul li{
+    list-style: none;
+}
+
+.dkv:hover{
+    color: #1295e0;
+    padding: 20px 20px;
+}
+
+.alb{
+    background-color: rgb(195, 214, 226) ;
+    position: relative;
+    padding: 250px 1px;
+    justify-items: center;
+}
+
+.alb h2{
+    margin-bottom: 30px;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img1{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s , opacity 1s ;
+}
+
+.img1:hover{
+    padding: 20px 20px;
+    opacity: 1.0;
+}
+
+.img2{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s ,opacity 1s;
+}
+
+.img2:hover{
+    padding: 20px 20px;
+    opacity: 1;
+}
+
+.img3{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s, opacity 1s ;
+}
+
+.img3:hover{
+    padding: 20px 20px;
+    opacity: 1;
+}
+
+.row2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img4{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s , opacity 1s ;
+}
+
+.img4:hover{
+    padding: 20px 20px;
+    opacity: 1.0;
+}
+
+.img5{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s ,opacity 1s;
+}
+
+.img5:hover{
+    padding: 20px 20px;
+    opacity: 1;
+}
+
+.img6{
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+    border: 1px;
+    box-shadow: 0px 1px 8px 0px;
+    opacity: 0.6;
+    transition: padding 1s, opacity 1s ;
+}
+
+.img6:hover{
+    padding: 20px 20px;
+    opacity: 1;
+}
+
+.loca{
+    background-color: rgb(195, 214, 226);
+    position: relative;
+    display: flex;
+    justify-content: end;
+    padding: 150px 100px;
+}
